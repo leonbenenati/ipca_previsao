@@ -2,4 +2,4 @@ scikit-learn
 matplotlib
 seaborn 
 statsmodels
-bcb
+from bcb import sgs
