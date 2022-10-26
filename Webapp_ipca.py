@@ -22,7 +22,7 @@ if pagina == 'Previsão':
 		#ipca.index = pd.DatetimeIndex(ipca.index ,freq='MS')
 
 		#Modelo Sarima
-		sarima= SARIMAX(ipca, order=(1, 1, 2), seasonal_order=(1,0,1,12),trend="c").fit()
+		sarima= SARIMAX(ipca, order=(1, 1, 2), seasonal_order=(1,0,1,12),trend="c",method= 'lbfgs').fit()
 		#sarima.forecast(12)
 
 		sns.set(style="darkgrid")
