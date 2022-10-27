@@ -33,10 +33,10 @@ if pagina == 'Previsão':
     start_D=0, 
     start_Q=0, 
     max_p=2,
-    max_d=2, 
+    max_d=1, 
     max_q=2,
     max_P=2,
-    max_D=2, 
+    max_D=1, 
     max_Q=2,
     m=12)
 
