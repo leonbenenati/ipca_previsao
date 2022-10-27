@@ -4,4 +4,4 @@ seaborn
 statsmodels
 python-bcb
 pmdarima
-base64
+
